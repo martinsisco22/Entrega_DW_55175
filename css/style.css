@@ -178,3 +178,9 @@ a:hover {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
 }
+
+/* footer */
+
+.footer a{
+    text-decoration: underline;
+}
