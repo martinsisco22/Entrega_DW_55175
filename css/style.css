@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lilita+One&display=swap');
+
+
+html {
+
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 62.5%;
+
+}
+
+.bg-black {
+    background-color: #000; /* Cambia el color de fondo al negro (#000) o el que prefieras */
+    color: #fff; /* Cambia el color del texto a blanco (#fff) o el que prefieras */
+}
+
+
+.carrito img {
+    
+    width: 15%;
+
+
+}
+
+
+
+.no-bullets {
+    list-style: none;
+}
+
+
+
+
+/* Registrate */
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Categorías */
+.categorias {
+    
+    justify-content: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Lilita One', cursive;
+
+}
+
+.categorias div {
+    text-align: center;
+    margin: 20px;
+    flex: 1;
+
+}
+
+  
+/* Quesos y Vinos */
+.quesos img {
+    width: 80%;
+    height: 80%;
+}
+
+.vinos img {
+    width: 80%;
+    height: 80%;
+}
+
+.vinos{
+    font-weight: bold;
+}
+
+.quesos{
+    font-weight: bold;
+}
+
+
+
+
+
+/* Producto */
+
+.elegiProducto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px;
+
+}
+
+.product img {
+    width: 150px;
+    height: 150px;
+
+}
+
+
+/* LA DISTRIBUIDORA------------------------------ */
+
+/* Establece la imagen como fondo del texto */
+.distribuidora {
+    position: relative;
+    color: black;
+    text-align: center;
+}
+
+.distribuidora::before {
+    content: "";
+    background-image: url('../images/bannervino2.png');
+    background-size: 100% auto; /* Anchura al 100% y altura automática para mantener la proporción original */
+    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: .5; /* Ajusta la opacidad para oscurecer la imagen */
+    z-index: -1; /* Coloca la imagen detrás del contenido de texto */
+}
+
+/* Estilos para el texto */
+.distribuidora h1 {
+    font-size: 2.5rem;
+    margin-top: 50px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.distribuidora p {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
