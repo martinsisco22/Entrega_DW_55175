@@ -69,13 +69,13 @@ a:hover {
 
 /* Quesos y Vinos */
 .quesos img {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 }
 
 .vinos img {
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height: 100%;
 }
 
 
@@ -87,11 +87,12 @@ a:hover {
 font-family: 'Roboto Condensed', sans-serif;
 }
 
-.quesos {
+.quesos p{
     font-weight: bold;
     font-size: 2rem;
     font-family: 'Fira Sans', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 /* FAQ */
