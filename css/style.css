@@ -1,33 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lilita+One&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Roboto+Condensed:wght@300&display=swap');
 
 html {
-
-    font-family: 'Josefin Sans', sans-serif;
     font-size: 62.5%;
 
 }
-
-.bg-black {
-    background-color: #000; /* Cambia el color de fondo al negro (#000) o el que prefieras */
-    color: #fff; /* Cambia el color del texto a blanco (#fff) o el que prefieras */
-}
-
-
-.carrito img {
-    
-    width: 15%;
-
-
-}
-
-
-
-.no-bullets {
-    list-style: none;
-}
-
-
 
 
 /* Registrate */
@@ -76,25 +57,16 @@ a:hover {
     text-decoration: underline;
 }
 
+/* Categorias */
 
+.titulo-categorias{
 
-/* Categorías */
-.categorias {
-    
-    justify-content: center;
-    font-family: 'Josefin Sans', sans-serif;
-    font-family: 'Lilita One', cursive;
-
-}
-
-.categorias div {
-    text-align: center;
-    margin: 20px;
-    flex: 1;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: 'Fira Sans', sans-serif;
 
 }
 
-  
 /* Quesos y Vinos */
 .quesos img {
     width: 80%;
@@ -106,32 +78,90 @@ a:hover {
     height: 80%;
 }
 
-.vinos{
+
+
+.vinos {
     font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
 }
 
-.quesos{
+.quesos {
     font-weight: bold;
+    font-size: 2rem;
+    font-family: 'Fira Sans', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+}
+
+/* FAQ */
+
+.faq{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+
+.accordion-button{
+    font-family: 'Fira Sans', sans-serif;
+    
+}
+
+.accordion-collapse{
+    font-family: 'Fira Sans', sans-serif;
+    font-style: italic;
+    font-size: 1rem;
 }
 
 
+/*MDP*/
 
+.mdp h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3rem; 
+}
+
+.mdp p{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1rem; 
+}
+
+/* Registrate   */
+
+.registrate h1{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3rem; 
+}
 
 
 /* Producto */
 
-.elegiProducto {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+
+.titulo-producto{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+    
+}
+
+.titulo-producto{
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: bold;
+    font-size: 3rem;
+}
+
+.productos{
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 1.5rem;
 }
 
 .product {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 10px;
 
+    align-items: center;
+    margin: 40px;
 }
 
 .product img {
@@ -168,19 +198,14 @@ a:hover {
 .distribuidora h1 {
     font-size: 2.5rem;
     margin-top: 50px;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
 }
 
 .distribuidora p {
     font-size: 1.5rem;
     margin-top: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
 }
 
-/* footer */
-
-.footer a{
-    text-decoration: underline;
-}
