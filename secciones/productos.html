@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Productos</title>
 
- <!-- Bootstrap Librerias -->
- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <!-- Bootstrap Librerias -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 
 
@@ -21,128 +22,132 @@
         rel="stylesheet">
 </head>
 
-<body>
+<body class="productos-body">
 
-<!-- Header -->
-<header class="container-fluid bg-black d-flex justify-content-between align-items-center p-4">
-    <a href="../index.html">
-        <img class="mb-0 p-0" src="../images/Logo.png" alt="Logo" >
-    </a>
-    <nav class="navbar navbar-expand-lg navbar-dark p-0">
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarScroll">
-            <ul class="navbar-nav me-auto my-2 my-lg-0">
+    <!-- Header -->
+    <header class="container-fluid bg-black d-flex justify-content-between align-items-center p-4">
+        <a href="../index.html">
+            <img class="mb-0 p-0" src="../images/Logo.png" alt="Logo">
+        </a>
+        <nav class="navbar navbar-expand-lg navbar-dark p-0">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0">
 
-                <!-- Inicio -->
-                <li class="nav-item">
-                    <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
-                </li>
-                <!-- Registrate -->
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="../secciones/registrate.html">Registrate</a>
-                </li>
-                <!-- Productos -->
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="../secciones/productos.html">Productos</a>
-                </li>
-                <li class="nav-item">
-                <!-- Medio de pago -->
-                    <a class="nav-link text-white" href="../secciones/mdp.html">Medios de Pago y Promociones</a>
-                </li>
-                <!-- FAQ -->
-                <li class="nav-item">
-                    <a class="nav-link text-white" href="../secciones/faq.html">Preguntas Frecuentes</a>
-                </li>
-            </ul>
-            <form class="d-flex">
-                <input class="form-control me-2" type="email" placeholder="Introducir email" aria-label="email">
-                <button class="btn btn-outline-success btn-white" type="button">Recibir Newsletter</button>
-            </form>
-        </div>
-    </nav>
-</header>
-
-<!-- Banner -->
-
-
-
-
-
-<!-- Main con Bootstrap -->
-<main class="container mt-5">
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <h1 class="titulo-producto mb-4">Nuestro Catálogo</h1>
-        </div>
-    </div>
-    <div class="productos row">
-        <!-- Producto 1 (4 columnas en pantallas grandes, 2 columnas en medianas y 1 columna en pequeñas) -->
-        <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="product text-center">
-                <img src="../images/Salentein.png" alt="" class="img-fluid">
-                <p>Salentein</p>
-            </div>
-        </div>
-        <!-- Producto 2 (4 columnas en pantallas grandes, 2 columnas en medianas y 1 columna en pequeñas) -->
-        <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="product text-center">
-                <img src="../images/Nicasia.png" alt="" class="img-fluid">
-                <p>Nicasia</p>
-            </div>
-        </div>
-        <!-- Producto 3 (4 columnas en pantallas grandes, 2 columnas en medianas y 1 columna en pequeñas) -->
-        <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="product text-center">
-                <img src="../images/cremoso.jpg" alt="" class="img-fluid">
-                <p>Queso Cremoso</p>
-            </div>
-        </div>
-        <!-- Producto 4 (4 columnas en pantallas grandes, 2 columnas en medianas y 1 columna en pequeñas) -->
-        <div class="col-lg-3 col-md-6 col-sm-12">
-            <div class="product text-center">
-                <img src="../images/parmesano.jpg" alt="" class="img-fluid">
-                <p>Queso Parmesano</p>
-            </div>
-        </div>
-    </div>
-</main>
-
-
-
-
-  <!-- Footer utilizando Bootstrap-->
-<footer class="bg-black text-white py-4">
-    <div class="container">
-        <div class="row">
-            <!-- Contacto -->
-            <div class="col-md-8">
-                <h4>Contacto</h4>
-                <ul class="list-unstyled">
-                    <!-- Enlance Mail -->
-                    <li>
-                        <a href="mailto:dkusa@dkusa.com" class="text-white"><i class="far fa-envelope"></i> dkusa@dkusa.com</a>
+                    <!-- Inicio -->
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="../index.html">Inicio</a>
                     </li>
-                    <li>
-                        <!-- Enlace de WhatsApp -->
-                        <a href="https://wa.me/541100000000" class="text-white me-2"><i class="fab fa-whatsapp"></i> +54 9 11 0000 0000</a>
+                    <!-- Registrate -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../secciones/registrate.html">Registrate</a>
                     </li>
-                    <li>
-                        <!-- Botones de redes sociales -->
-                        <a href="https://www.facebook.com/" class="text-white me-2"><i class="fab fa-facebook"></i>Distribuidora Kusa</a>
+                    <!-- Productos -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../secciones/productos.html">Productos</a>
                     </li>
-                   <li>
-                        <a href="https://www.instagram.com/" class="text-white me-2"><i class="fab fa-instagram"></i>Distribuidora Kusa</a>
+                    <li class="nav-item">
+                        <!-- Medio de pago -->
+                        <a class="nav-link text-white" href="../secciones/mdp.html">Medios de Pago y Promociones</a>
+                    </li>
+                    <!-- FAQ -->
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="../secciones/faq.html">Preguntas Frecuentes</a>
                     </li>
                 </ul>
+                <form class="d-flex">
+                    <input class="form-control me-2" type="email" placeholder="Introducir email" aria-label="email">
+                    <button class="btn btn-outline-success btn-white" type="button">Recibir Newsletter</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+
+
+
+    <!-- Main con Bootstrap -->
+    <main class="productos-main container mt-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="titulo-producto mb-4">Nuestro Catálogo</h1>
             </div>
         </div>
-    </div>
-</footer>
+        <div class="productos row">
+            <!-- Producto 1 (4 columnas en pantallas grandes, 2 columnas en medianas y 1 columna en pequeñas) -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="product text-center">
+                    <img src="../images/Salentein.png" alt="" class="img-fluid">
+                    <p>Salentein</p>
+                </div>
+            </div>
+            <!-- Producto 2 (4 columnas en pantallas grandes, 2 columnas en medianas y 1 columna en pequeñas) -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="product text-center">
+                    <img src="../images/Nicasia.png" alt="" class="img-fluid">
+                    <p>Nicasia</p>
+                </div>
+            </div>
+            <!-- Producto 3 (4 columnas en pantallas grandes, 2 columnas en medianas y 1 columna en pequeñas) -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="product text-center">
+                    <img src="../images/cremoso.jpg" alt="" class="img-fluid">
+                    <p>Queso Cremoso</p>
+                </div>
+            </div>
+            <!-- Producto 4 (4 columnas en pantallas grandes, 2 columnas en medianas y 1 columna en pequeñas) -->
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="product text-center">
+                    <img src="../images/parmesano.jpg" alt="" class="img-fluid">
+                    <p>Queso Parmesano</p>
+                </div>
+            </div>
+        </div>
+    </main>
 
-<!-- Bootstrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+
+
+
+    <!-- Footer utilizando Bootstrap-->
+    <footer class="bg-black text-white py-4">
+        <div class="container">
+            <div class="row">
+                <!-- Contacto -->
+                <div class="col-md-8">
+                    <h4>Contacto</h4>
+                    <ul class="list-unstyled">
+                        <!-- Enlance Mail -->
+                        <li>
+                            <a href="mailto:dkusa@dkusa.com" class="text-white"><i class="far fa-envelope"></i>
+                                dkusa@dkusa.com</a>
+                        </li>
+                        <li>
+                            <!-- Enlace de WhatsApp -->
+                            <a href="https://wa.me/541100000000" class="text-white me-2"><i class="fab fa-whatsapp"></i>
+                                +54 9 11 0000 0000</a>
+                        </li>
+                        <li>
+                            <!-- Botones de redes sociales -->
+                            <a href="https://www.facebook.com/" class="text-white me-2"><i
+                                    class="fab fa-facebook"></i>Distribuidora Kusa</a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/" class="text-white me-2"><i
+                                    class="fab fa-instagram"></i>Distribuidora Kusa</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
 
 
 </body>

@@ -11,55 +11,43 @@ html {
 }
 
 
-/* Registrate */
+/* Registrate   */
 
-
-body {
-    font-family: Arial, sans-serif;
-    background-color: #f5f5f5;
-}
-
-
-form {
+.registrate-content form {
     display: flex;
     flex-direction: column;
 }
 
-label {
+.registrate-content label {
     font-weight: bold;
     margin-bottom: 5px;
 }
 
-input {
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 3px;
+
+
+/*Registrate/FAQ/Productos Body arreglo espacios blancos*/
+.registrate-body, .faq-body, .productos-body {
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 
-input[type="submit"] {
-    background-color: #007bff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
+/*Registrate/FAQ/Productos Main arreglo espacios blancos*/
+.registrate-content, .faq-main, .productos-main {
+    flex-grow: 1;
+    background-color: #fff;
+    padding: 20px;
+    font-family: 'Fira Sans', sans-serif;
 }
 
-input[type="submit"]:hover {
-    background-color: #0056b3;
-}
 
-a {
-    color: #007bff;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
 
 /* Categorias */
 
-.titulo-categorias{
+.titulo-categorias {
 
     font-weight: bold;
     font-size: 3rem;
@@ -84,32 +72,32 @@ a:hover {
     font-weight: bold;
     font-size: 2rem;
     font-family: 'Fira Sans', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
-.quesos p{
+.quesos p {
     font-weight: bold;
     font-size: 2rem;
     font-family: 'Fira Sans', sans-serif;
-font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
 
 }
 
 /* FAQ */
 
-.faq{
+.faq {
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
     font-size: 3rem;
-    
+
 }
 
-.accordion-button{
+.accordion-button {
     font-family: 'Fira Sans', sans-serif;
-    
+
 }
 
-.accordion-collapse{
+.accordion-collapse {
     font-family: 'Fira Sans', sans-serif;
     font-style: italic;
     font-size: 1rem;
@@ -118,43 +106,37 @@ font-family: 'Roboto Condensed', sans-serif;
 
 /*MDP*/
 
-.mdp h1{
+.mdp h1 {
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
-    font-size: 3rem; 
+    font-size: 3rem;
 }
 
-.mdp p{
+.mdp p {
     font-family: 'Fira Sans', sans-serif;
-    font-size: 1rem; 
+    font-size: 1rem;
 }
 
-/* Registrate   */
 
-.registrate h1{
-    font-family: 'Fira Sans', sans-serif;
-    font-weight: bold;
-    font-size: 3rem; 
-}
 
 
 /* Producto */
 
 
-.titulo-producto{
+.titulo-producto {
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
     font-size: 3rem;
-    
+
 }
 
-.titulo-producto{
+.titulo-producto {
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
     font-size: 3rem;
 }
 
-.productos{
+.productos {
     font-family: 'Fira Sans', sans-serif;
     font-size: 1.5rem;
 }
@@ -184,15 +166,18 @@ font-family: 'Roboto Condensed', sans-serif;
 .distribuidora::before {
     content: "";
     background-image: url('../images/bannervino2.png');
-    background-size: 100% auto; /* Anchura al 100% y altura automática para mantener la proporción original */
+    background-size: 100% auto;
+    /* Anchura al 100% y altura automática para mantener la proporción original */
     background-position: center;
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    opacity: .5; /* Ajusta la opacidad para oscurecer la imagen */
-    z-index: -1; /* Coloca la imagen detrás del contenido de texto */
+    opacity: .5;
+    /* Ajusta la opacidad para oscurecer la imagen */
+    z-index: -1;
+    /* Coloca la imagen detrás del contenido de texto */
 }
 
 /* Estilos para el texto */
@@ -209,4 +194,6 @@ font-family: 'Roboto Condensed', sans-serif;
     font-family: 'Fira Sans', sans-serif;
     font-weight: bold;
 }
+
+
 
