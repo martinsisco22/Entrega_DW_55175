@@ -1,3 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lilita+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:wght@500&family=Roboto+Condensed:wght@300&display=swap");
+html {
+  font-size: 62.5%;
+}
 
+/* Body | Arreglo espacios blancos */
+.registrate-body,
+.faq-body,
+.productos-body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Main | Arreglo espacios blancos */
+.registrate-content,
+.faq-main,
+.productos-main {
+  flex-grow: 1;
+  background-color: #fff;
+  padding: 20px;
+  font-family: "Fira Sans", sans-serif;
+}
+
+/* Registrate */
+.registrate-content form {
+  display: flex;
+  flex-direction: column;
+}
+.registrate-content form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+/* Categorias */
+.titulo-categorias {
+  font-weight: bold;
+  font-size: 3rem;
+  font-family: "Fira Sans", sans-serif;
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+
+/* Quesos y Vinos */
+.quesos img,
+.vinos img {
+  width: 100%;
+  height: 100%;
+}
+.quesos.vinos,
+.vinos.vinos {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Fira Sans", sans-serif, "Roboto Condensed", sans-serif;
+}
+.quesos.quesos p,
+.vinos.quesos p {
+  font-weight: bold;
+  font-size: 2rem;
+  font-family: "Fira Sans", sans-serif, "Roboto Condensed", sans-serif;
+}
+
+/* FAQ */
+.faq {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.faq .accordion-button {
+  font-family: "Fira Sans", sans-serif;
+}
+.faq .accordion-collapse {
+  font-family: "Fira Sans", sans-serif;
+  font-style: italic;
+  font-size: 1rem;
+}
+
+/* MDP */
+.mdp h1, .mdp h2 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.mdp p {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1rem;
+}
+
+/* Producto */
+.titulo-producto {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+  font-size: 3rem;
+}
+
+.productos {
+  font-family: "Fira Sans", sans-serif;
+  font-size: 1.5rem;
+}
+.productos .product {
+  align-items: center;
+  margin: 40px;
+}
+.productos .product img {
+  width: 150px;
+  height: 150px;
+}
+
+/* LA DISTRIBUIDORA */
+.distribuidora {
+  position: relative;
+  color: black;
+  text-align: center;
+  margin-bottom: 60px;
+}
+.distribuidora::before {
+  content: "";
+  background-image: url("../images/bannervino2.png");
+  background-size: 100% auto;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0.5;
+  z-index: -1;
+}
+.distribuidora h2 {
+  font-size: 2.5rem;
+  margin-top: 50px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
+.distribuidora p {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
+
+.logo img {
+  width: 100%;
+}
+
+/* Botones Registrate y Newsletter */
+.btn {
+  border-radius: 3px;
+  border: none;
+  font-weight: bold;
+  /* Color al posar el click sobre el boton */
+  /*Cambia Color cuando hago Click*/
+}
+.btn:hover {
+  background-color: rgb(122, 43, 226) !important;
+}
+.btn:active {
+  background-color: green !important;
+}
 
 /*# sourceMappingURL=estilos.css.map */
