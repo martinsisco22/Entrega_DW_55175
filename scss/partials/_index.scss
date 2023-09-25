@@ -1,0 +1,68 @@
+
+/* Categorias */
+
+
+.titulo-categorias {
+    font-weight: $bold;
+    font-size: 3rem;
+    font-family: $fuente;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+
+/* Quesos y Vinos */
+.quesos,
+.vinos {
+    img {
+        width: 100%;
+        height: 100%;
+    }
+
+    &.vinos {
+        font-weight: $bold;
+        font-size: 2rem;
+        font-family: $fuente, 'Roboto Condensed', sans-serif;
+    }
+
+    &.quesos {
+        p {
+            font-weight: $bold;
+            font-size: 2rem;
+            font-family: $fuente, 'Roboto Condensed', sans-serif;
+        }
+    }
+}
+
+/* LA DISTRIBUIDORA */
+.distribuidora {
+    position: relative;
+    color: $negro;
+    text-align: center;
+    margin-bottom: 60px;
+
+    &::before {
+        content: "";
+        background-image: url('../images/bannervino2.png');
+        background-size: 100% auto;
+        background-position: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        opacity: .5;
+        z-index: -1;
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin-top: 50px;
+        @include fuente-bold;
+    }
+
+    p {
+        font-size: 1.5rem;
+        margin-top: 20px;
+        @include fuente-bold;
+    }
+}

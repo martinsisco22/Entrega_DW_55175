@@ -1,0 +1,21 @@
+
+/* Producto */
+.titulo-producto {
+    @include fuente-bold;
+    font-size: 3rem;
+}
+
+.productos {
+    font-family: $fuente;
+    font-size: 1.5rem;
+
+    .product {
+        align-items: center;
+        margin: 40px;
+
+        img {
+            width: 150px;
+            height: 150px;
+        }
+    }
+}

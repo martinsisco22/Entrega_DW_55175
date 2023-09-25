@@ -1,0 +1,15 @@
+/* FAQ */
+.faq {
+    @include fuente-bold;
+    font-size: 3rem;
+
+    .accordion-button {
+        font-family: $fuente;
+    }
+
+    .accordion-collapse {
+        font-family: $fuente;
+        font-style: italic;
+        font-size: 1rem;
+    }
+}

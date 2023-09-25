@@ -1,0 +1,12 @@
+/* MDP */
+.mdp {
+    h1, h2 {
+        @include fuente-bold;
+        font-size: 3rem;
+    }
+
+    p {
+        font-family: $fuente;
+        font-size: 1rem;
+    }
+}

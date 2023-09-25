@@ -1,0 +1,28 @@
+
+// Mis colores // 
+
+$verde: rgb(0, 128, 17) ;
+$violeta: rgb(122, 43, 226);
+$negro: rgb(0, 0, 0);
+$blanco: #f0f0f0;
+
+
+// Mis Fuentes //
+
+$fuente: 'Fira Sans', sans-serif;
+$bold: bold;
+
+// Mis Mixin //
+
+@mixin fuente-bold{
+    font-family: $fuente;
+    font-weight: $bold;
+}
+
+@mixin flex {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+
