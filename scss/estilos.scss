@@ -3,6 +3,7 @@
 @import "partials/index";
 @import "partials/mdp";
 @import "partials/productos";
+@import "partials/registrate";
 
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Lilita+One&display=swap');
@@ -34,18 +35,6 @@ html {
     background-color: $blanco;
     padding: 20px;
     font-family: $fuente;
-}
-
-/* Registrate */
-.registrate-content {
-    form {
-        @include flex;
-
-        label {
-            font-weight: $bold;
-            margin-bottom: 5px;
-        }
-    }
 }
 
 

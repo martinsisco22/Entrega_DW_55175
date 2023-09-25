@@ -108,6 +108,20 @@
   height: 150px;
 }
 
+/* Registrate */
+.registrate-content h1 {
+  font-family: "Fira Sans", sans-serif;
+  font-weight: bold;
+}
+.registrate-content form {
+  display: flex;
+  flex-direction: column;
+}
+.registrate-content form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
 html {
   font-size: 62.5%;
 }
@@ -132,16 +146,6 @@ html {
   background-color: #f0f0f0;
   padding: 20px;
   font-family: "Fira Sans", sans-serif;
-}
-
-/* Registrate */
-.registrate-content form {
-  display: flex;
-  flex-direction: column;
-}
-.registrate-content form label {
-  font-weight: bold;
-  margin-bottom: 5px;
 }
 
 .logo img {
