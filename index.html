@@ -1,194 +1,249 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- CSS -->
 
-    <link rel="stylesheet" href="./css/estilos.css">
-
+    <link rel="stylesheet" href="./css/estilos.css" />
 
     <title>Distribuidora Kusa</title>
 
+    
+    <meta name="description" content="Conocé mas sobre Distribuidora Kusa y Productos, tales como Quesos y Vinos">
+    <meta name="keywords" content="Distribuidora, Alcohol, Quesos, Vinos, Bodegas">
+
     <!-- Bootstrap Librerias -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
 
-
-</head>
-
-<body>
-
+  <body>
     <!-- Header -->
-    <header class="container-fluid bg-black d-flex justify-content-between align-items-center p-4">
-
-        <nav class="navbar navbar-expand-lg navbar-dark p-0">
-            <a href="index.html">
-                <img class="logo mb-0 p-0" src="./images/Logo.png" alt="Logo">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-                aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+    <header
+      class="container-fluid bg-black d-flex justify-content-between align-items-center p-4"
+    >
+      <nav class="navbar navbar-expand-lg navbar-dark p-0">
+        <a href="index.html">
+          <img class="logo mb-0 p-0" src="./images/Logo.png" alt="Logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav me-auto my-2 my-lg-0">
+            <li class="nav-item">
+              <a
+                class="nav-link active text-white"
+                aria-current="page"
+                href="index.html"
+                >Inicio</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./secciones/registrate.html"
+                >Registrate</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./secciones/productos.html"
+                >Productos</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./secciones/mdp.html"
+                >Medios de Pago y Promociones</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./secciones/faq.html"
+                >Preguntas Frecuentes</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="email"
+              placeholder="Introducir email"
+              aria-label="email"
+            />
+            <button class="btn btn-outline-success btn-white" type="button">
+              Recibir Newsletter
             </button>
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active text-white" aria-current="page" href="index.html">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="./secciones/registrate.html">Registrate</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="./secciones/productos.html">Productos</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="./secciones/mdp.html">Medios de Pago y Promociones</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="./secciones/faq.html">Preguntas Frecuentes</a>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="email" placeholder="Introducir email" aria-label="email">
-                    <button class="btn btn-outline-success btn-white" type="button">Recibir Newsletter</button>
-                </form>
-            </div>
-        </nav>
+          </form>
+        </div>
+      </nav>
     </header>
-
 
     <!-- Main -->
     <main class="container mt-5">
-        <!-- Banner -->
-        <div id="carouselExampleIndicators" class="carousel slide">
-
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                    aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="./images/Banner4.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/Banner3.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item">
-                    <img src="./images/Banner2.jpg" class="d-block w-100" alt="...">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+      <!-- Banner -->
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
         </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/Banner4.jpg" class="d-block w-100" alt="Vinos" />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Banner3.jpg" class="d-block w-100" alt="Vinos" />
+          </div>
+          <div class="carousel-item">
+            <img src="./images/Banner2.jpg" class="d-block w-100" alt="Vinos" />
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
 
-        <!-- Categorias -->
+      <!-- Categorias -->
 
+      <h1 class="titulo-categorias text-center mb-4">Buscá por categorías</h1>
 
-        <h1 class="titulo-categorias text-center mb-4">
-            Buscá por categorías
-        </h1>
+      <!-- Categorías con Bootstrap grid -->
+      <section class="row">
+        <div class="col-md-6">
+          <!-- Quesos -->
+          <div
+            class="quesos d-flex flex-column align-items-center justify-content-center"
+          >
+            <a href="./secciones/productos.html">
+              <img src="./images/Quesos4.jpg" alt="quesos" class="img-fluid" />
+            </a>
+            <p class="text-center">Quesos</p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <!-- Vinos -->
+          <div
+            class="vinos d-flex flex-column align-items-center justify-content-center"
+          >
+            <a href="./secciones/productos.html">
+              <img src="./images/vinos4.jpg" alt="vinos" class="img-fluid" />
+            </a>
+            <p class="text-center">Vinos</p>
+          </div>
+        </div>
+      </section>
 
-        <!-- Categorías con Bootstrap grid -->
-        <section class="row">
-            <div class="col-md-6">
-                <!-- Quesos -->
-                <div class="quesos d-flex flex-column align-items-center justify-content-center">
-                    <a href="./secciones/productos.html">
-                        <img src="./images/Quesos4.jpg" alt="quesos" class="img-fluid">
-                    </a>
-                    <p class="text-center">Quesos</p>
-                </div>
-            </div>
-            <div class="col-md-6">
-                <!-- Vinos -->
-                <div class="vinos d-flex flex-column align-items-center justify-content-center">
-                    <a href="./secciones/productos.html">
-                        <img src="./images/vinos4.jpg" alt="vinos" class="img-fluid">
-                    </a>
-                    <p class="text-center">Vinos</p>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Sección con texto sobre la imagen de fondo -->
-        <section class="distribuidora">
-            <div class="container">
-                <h2 class="display-4">LA DISTRIBUIDORA</h2>
-                <p>
-                    En DK, sabemos que cada ocasión especial, cada celebración o momento de disfrute merece contar con
-                    la mejor selección de bebidas y quesos. Somos una distribuidora apasionada por la calidad y la
-                    diversidad de sabores que el mundo de las bebidas y los quesos tiene para ofrecer.
-                </p>
-                <p>
-                    Desde los vinos más exquisitos hasta las cervezas artesanales más innovadoras, en DK encontrarás una
-                    amplia gama de bebidas cuidadosamente seleccionadas. Nuestro compromiso es brindarte la oportunidad
-                    de explorar nuevas experiencias gustativas y descubrir tus preferencias personales.
-
-                </p>
-            </div>
-        </section>
-
-
+      <!-- Sección con texto sobre la imagen de fondo -->
+      <section class="distribuidora">
+        <div class="container">
+          <h2 class="display-4">LA DISTRIBUIDORA</h2>
+          <p>
+            En DK, sabemos que cada ocasión especial, cada celebración o momento
+            de disfrute merece contar con la mejor selección de bebidas y
+            quesos. Somos una distribuidora apasionada por la calidad y la
+            diversidad de sabores que el mundo de las bebidas y los quesos tiene
+            para ofrecer.
+          </p>
+          <p>
+            Desde los vinos más exquisitos hasta las cervezas artesanales más
+            innovadoras, en DK encontrarás una amplia gama de bebidas
+            cuidadosamente seleccionadas. Nuestro compromiso es brindarte la
+            oportunidad de explorar nuevas experiencias gustativas y descubrir
+            tus preferencias personales.
+          </p>
+        </div>
+      </section>
     </main>
 
     <!-- Footer utilizando Bootstrap-->
     <footer class="bg-black text-white py-4">
-        <div class="container">
-            <div class="row">
-                <!-- Contacto -->
-                <div class="col-md-8">
-                    <h4>Contacto</h4>
-                    <ul class="list-unstyled">
-                        <!-- Enlance Mail -->
-                        <li>
-                            <a href="mailto:dkusa@dkusa.com" class="text-white"><i class="far fa-envelope"></i>
-                                dkusa@dkusa.com</a>
-                        </li>
-                        <li>
-                            <!-- Enlace de WhatsApp -->
-                            <a href="https://wa.me/541100000000" class="text-white me-2"><i class="fab fa-whatsapp"></i>
-                                +54 9 11 0000 0000</a>
-                        </li>
-                        <li>
-                            <!-- Botones de redes sociales -->
-                            <a href="https://www.facebook.com/" class="text-white me-2"><i
-                                    class="fab fa-facebook"></i>Distribuidora Kusa</a>
-                        </li>
-                        <li>
-                            <a href="https://www.instagram.com/" class="text-white me-2"><i
-                                    class="fab fa-instagram"></i>Distribuidora Kusa</a>
-                        </li>
-
-                    </ul>
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <!-- Contacto -->
+          <div class="col-md-8">
+            <h4>Contacto</h4>
+            <ul class="list-unstyled">
+              <!-- Enlance Mail -->
+              <li>
+                <a href="mailto:dkusa@dkusa.com" class="text-white"
+                  ><i class="far fa-envelope"></i> dkusa@dkusa.com</a
+                >
+              </li>
+              <li>
+                <!-- Enlace de WhatsApp -->
+                <a href="https://wa.me/541100000000" class="text-white me-2"
+                  ><i class="fab fa-whatsapp"></i> +54 9 11 0000 0000</a
+                >
+              </li>
+              <li>
+                <!-- Botones de redes sociales -->
+                <a href="https://www.facebook.com/" class="text-white me-2"
+                  ><i class="fab fa-facebook"></i>Distribuidora Kusa</a
+                >
+              </li>
+              <li>
+                <a href="https://www.instagram.com/" class="text-white me-2"
+                  ><i class="fab fa-instagram"></i>Distribuidora Kusa</a
+                >
+              </li>
+            </ul>
+          </div>
         </div>
+      </div>
     </footer>
 
-
     <!-- Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
-        crossorigin="anonymous"></script>
-
-
-
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
